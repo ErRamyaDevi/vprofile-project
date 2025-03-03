@@ -8,7 +8,7 @@ pipeline {
 		SNAP-REPO = 'devops-snapshots'
                 NEXUS-USER = 'admin'
                 NEXUS-PASS = 'admin@23'
-                RELEASE_REPO = 'devops-release'
+                RELEASE-REPO = 'devops-release'
                 CENTRAL-REPO = 'devops-central'
                 NEXUSIP = '172.31.9.243'
                 NEXUSPORT = '8081'
