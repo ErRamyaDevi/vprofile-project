@@ -5,15 +5,15 @@ pipeline {
                 maven "MAVEN3.9"
 		}
 	environment {
-		SNAP-REPO = 'devops-snapshots'
-                NEXUS-USER = 'admin'
-                NEXUS-PASS = 'admin@23'
-                RELEASE-REPO = 'devops-release'
-                CENTRAL-REPO = 'devops-central'
+		SNAP_REPO = 'devops-snapshots'
+                NEXUS_USER = 'admin'
+                NEXUS_PASS = 'admin@23'
+                RELEASE_REPO = 'devops-release'
+                CENTRAL_REPO = 'devops-central'
                 NEXUSIP = '172.31.9.243'
                 NEXUSPORT = '8081'
-                NEXUS-GRP-REPO = 'devops-group'
-                NEXUS-LOGIN = 'nexuslogin'
+                NEXUS_GRP_REPO = 'devops-group'
+                NEXUS_LOGIN = 'nexuslogin'
 		}
 	stages{
 		stage('BUILD'){
