@@ -167,7 +167,7 @@
 	<repositories>
     <repository>
       <id>devops-group</id>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <url>http://172.31.9.243:8081/repository/maven-group/</url>
     </repository>
   </repositories>
 </project>
