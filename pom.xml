@@ -167,7 +167,7 @@
 	<repositories>
     <repository>
       <id>devops-group</id>
-      <url>http://172.31.9.243:8081/repository/maven-group/</url>
+      <url>http://172.31.9.243:8081/repository/devops-group/</url>
     </repository>
   </repositories>
 </project>
