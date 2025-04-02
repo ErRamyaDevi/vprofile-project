@@ -21,7 +21,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 	<NEXUS-GRP-REPO>maven-group</NEXUS-GRP-REPO>
-        <NEXUSIP>172.31.9.243</NEXUSIP>
+        <NEXUSIP>10.0.38.162</NEXUSIP>
         <NEXUSPORT>8081</NEXUSPORT>
     </properties>
 
@@ -167,7 +167,7 @@
 	<repositories>
     <repository>
       <id>devops-group</id>
-      <url>http://172.31.9.243:8081/repository/devops-group/</url>
+      <url>http://10.0.38.162:8081/repository/devops-group/</url>
     </repository>
   </repositories>
 </project>
