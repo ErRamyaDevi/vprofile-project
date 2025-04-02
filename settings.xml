@@ -30,7 +30,7 @@
     <mirror>
       <id>${CENTRAL-REPO}</id>
       <name>${CENTRAL-REPO}</name>
-      <url>http://172.31.9.243:8081/repository/devops-group/</url>
+      <url>http://10.0.38.162:8081/repository/devops-group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
