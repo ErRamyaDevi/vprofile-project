@@ -3,7 +3,7 @@ pipeline {
 	tools {
 		      jdk "OracleJDK8"
          		maven "MAVEN3.9"
-		    }
+		}
   environment {
 		SNAP_REPO = 'devops-snapshots'
                 NEXUS_USER = 'admin'
