@@ -1,8 +1,8 @@
 pipeline {
 	agent any
 	tools {
-		      jdk "OracleJDK8"
-         		maven "MAVEN3.9"
+		jdk "OracleJDK8"
+         	maven "MAVEN3.9"
 		}
   environment {
 		SNAP_REPO = 'devops-snapshots'
