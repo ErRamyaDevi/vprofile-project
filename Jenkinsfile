@@ -14,7 +14,7 @@ pipeline {
                 NEXUS_PASS = 'ramya@WL123'
                 RELEASE_REPO = 'devops-release'
                 CENTRAL_REPO = 'devops-central'
-                NEXUSIP = '18.191.5.8'
+                NEXUSIP = '18.223.2.90'
                 NEXUSPORT = '8081'
                 NEXUS_GRP_REPO = 'devops-group'
                 NEXUS_LOGIN = 'nexuslogin'
@@ -87,15 +87,7 @@ pipeline {
 					]
 					)
 				}
-		post {
-		always {
-			echo 'Slack Notifications.'
-			slackSend channel: '#jenkinscicdchannel',
-				color: COLOR_MAP[currentBuild.currentResult],
-				message: "*${currentBuild.currentResult}:* Job ${env.JOB_NAME} build ${env.BUILD_NUMBER} \n More info at: ${env.BUILD_URL}"
-			}
-		    }
-			      }
+		      }
 	 
 	 
       }
