@@ -14,7 +14,7 @@ pipeline {
                 NEXUS_PASS = 'ramya@WL123'
                 RELEASE_REPO = 'devops-release'
                 CENTRAL_REPO = 'devops-central'
-                NEXUSIP = '3.144.70.37'
+                NEXUSIP = '18.222.73.250'
                 NEXUSPORT = '8081'
                 NEXUS_GRP_REPO = 'devops-group'
                 NEXUS_LOGIN = 'nexuslogin'
