@@ -25,7 +25,7 @@ pipeline {
                 vprofileRegistry = "https://590183829524.dkr.ecr.us-east-2.amazonaws.com"
 	  	cluster = "vprostaging"
 		service = "vproappstagesvc"
-		}
+	}
   stages{
   		stage('BUILD'){
   			steps {
